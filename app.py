@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import pickle
 filename = 'modelo-reg.pkl'
 modelo, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
-modelo
+
 
 #Cargamos los datos futuros
 #data = pd.read_csv("videojuegos-datosFuturos.csv")
